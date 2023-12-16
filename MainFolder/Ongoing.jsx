@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Ongoing() {
   return (
-    <View>
-      <Text>Ongoing</Text>
+    <View style={{alignItems:'center', justifyContent:'center', flex:1}}>
+      <Text>Ongoin</Text>
     </View>
   )
 }

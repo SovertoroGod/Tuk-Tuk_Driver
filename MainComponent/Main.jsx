@@ -6,6 +6,10 @@ import Firstview from '../MainFolder/Firstview';
 import Loginpage from '../MainFolder/Loginpage';
 
 
+import Driverdefault from './Driverdefault';
+
+
+
 const Stack = createNativeStackNavigator();
 export default function Main() {
   return (
@@ -13,7 +17,8 @@ export default function Main() {
         <Stack.Navigator initialRouteName='Firstview'>
             <Stack.Screen name = 'Firstview' options={{headerShown: false}} component={Firstview}/>
             <Stack.Screen name = 'Login' options={{headerShown: false}} component={Loginpage}/>
-            <Stack.Screen name = 'Secondview' options={{headerShown: false}} component={Firstview}/>
+            <Stack.Screen name = 'Secondview' options={{headerShown: false}} component={Driverdefault}/>
+            
         </Stack.Navigator>
     </NavigationContainer>
   )

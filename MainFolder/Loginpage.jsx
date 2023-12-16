@@ -34,7 +34,7 @@ export default function Loginpage() {
                 <TextInput style={tw`p-4 bg-gray-100 text-gray-700 rounded-2xl mb-5 text-lg`} placeholder="Enter Your Password" secureTextEntry/>
                 
                 <TouchableOpacity style={tw`py-4 rounded-full bg-orange-400 my-8`} onPress={() =>navigation.navigate("Secondview")}>
-                    <Text style={tw`font-base font-bold text-center text-white text-base`}>Login to Your Account</Text>
+                    <Text style={tw` font-bold text-center text-white text-base`}>Login to Your Account</Text>
                 </TouchableOpacity>
             </View>
             
