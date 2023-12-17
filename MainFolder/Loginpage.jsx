@@ -29,7 +29,7 @@ export default function Loginpage() {
         <View style={tw`flex-1 px-8 pt-8 mt-30 bg-white rounded-t-10`}>
             <View style={styles.css1}>
                 <Text style={tw`text-orange-700 ml-4 mb-3 text-lg`}>User Name</Text>
-                <TextInput style={tw`p-4 bg-gray-100 text-gray-700 rounded-2xl mb-5 text-lg`} placeholder="Enter Your Phone number" />
+                <TextInput style={tw`p-4 bg-gray-100 text-gray-700 rounded-2xl mb-5 text-lg`} placeholder="Enter Your User Name" />
                 <Text style={tw`text-orange-700 ml-4 mb-3 text-lg`}>Password</Text>
                 <TextInput style={tw`p-4 bg-gray-100 text-gray-700 rounded-2xl mb-5 text-lg`} placeholder="Enter Your Password" secureTextEntry/>
                 
