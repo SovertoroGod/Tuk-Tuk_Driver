@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from "react";
+import { View } from "react-native";
+import MapComponent from "./MapComponent";
 
-export default function Compass() {
-  return (
-    <View style={{alignItems:'center', justifyContent:'center', flex:1}}>
-      <Text>Compass</Text>
+const Compass = () => {
+  return(
+    <View style={{flex : 1}}>
+      <MapComponent />
     </View>
   )
-}
+};
+
+export default Compass;
